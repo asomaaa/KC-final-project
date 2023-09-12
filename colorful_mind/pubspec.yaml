@@ -1,0 +1,49 @@
+name: colorful_mind
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  convex_bottom_bar: ^3.0.0
+  audioplayers: ^5.0.0
+  url_launcher: ^6.1.13
+  carousel_slider: ^4.1.1
+  smooth_page_indicator: ^1.0.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - "images/"
+    - "images/homepage/"
+    - "images/ColorfulMind/"
+    - "assets/"
+    - "assets/images/"
+    - "assets/images/_story/"
+    - "assets/images/_number/"
+    - "assets/images/_color/"
+    - "assets/images/_animal/"
+    - "assets/profile/"
+    - "assets/audios/"
+
+
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: fonts\Rubik-Regular.ttf
+    - family: Rubik-Medium
+      fonts:
+        - asset: fonts\Rubik-Medium.ttf
+    - family: Rubik-SemiBold
+      fonts:
+        - asset: fonts\Rubik-SemiBold.ttf
